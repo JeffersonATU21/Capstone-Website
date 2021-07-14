@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+<head>
+
+<meta name="viewport" content=" width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+
+<title>Home</title>
+
+
+<link href="css/hfh_css.css" rel="stylesheet" type="text/css">
+
+<style type="text/css">
+	
+body {
+	background-color: #FFFFFF;
+}
+body,td,th {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+</style>
+</head>
+
+
+<header>
+<div id="navbar" class="topnav">
+  <a href="index.html">Home</a>
+  <a href="PayBill.html">Pay Bill</a>
+  <a href="workwithus.html">Work With Us</a>
+  <a href="members.php">Member Login</a>
+  
+  <a style="float: right" href="contact.html">Contact Us</a>>
+</div>
+<br>
+	<div class="centerlogo">
+	  <img src="logo.jpg" alt="Kennerly Construction" class="centerlogo">
+	</div>
+			
+</header>
+
+
+
+
+
+<section>
+<div class="col-half" class="content">
+<h1 style="font-size: 24px; color: #5EBA4D;"> Who are we?</h1>
+<p style="font-size: 18px; font-style: normal; font-weight: 400; font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', serif;">&nbsp;Kennerly Construction,inc is&nbsp; a construction company&nbsp; located in Mavern, Arkansas. We specialize in the truckig industr. Our team can manage any kid of job from big to smal. Over 20 years of experience help us offer you the best service and quality that you deserve&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+<h1 style="font-size: 18px; font-style: normal; font-weight: 400; font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', serif;"><span style="font-size: 24px; color: #5EBA4D;">Our Mission</span></h1>
+<p style="font-size: 18px; font-style: normal; font-weight: 400; font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', serif;">Providing Central Arkansas with best quality construction work and craftmanship that expect from a reputable company.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+<p style="font-size: 18px; font-style: normal; font-weight: 400; font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', serif;"><span style="font-size: 24px; color: #5EBA4D;">Our Machinery</span></p>
+<p style="font-size: 18px; font-style: normal; font-weight: 400; font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', serif;">Kennerly Construction strives to always be a reliable company. We have a variety of capable trucks and machines that help us get the job done without hesitations.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+</div>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="machinery1.jpg" style="width:40%" class="center">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="machinery2.jpg" style="width:40%" class="center">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="machinery3.jpg" style="width:40%" class="center">
+  <div class="text"></div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+
+</section>
+
+<p>
+  <footer><strong>Kennerly Construction. All Rights Reserved&nbsp;</strong></footer>
+</p>
+</body>
+</html>

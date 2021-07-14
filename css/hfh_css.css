@@ -1,0 +1,269 @@
+@charset "utf-8";
+body {
+	background-image:url(../background.jpg);
+	color: #000;
+	font-family: pt-sans, sans-serif;
+	font-size: 0.7em;
+	width: 770px;
+	font-style: normal;
+	font-weight: 400;
+	margin-right: auto;
+	margin-left: auto;
+	width: auto;
+}
+header{
+
+	max-width: 2040px;
+	margin-top: -25px;
+	padding-top: 50px;
+}
+.centerlogo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 86%;
+  
+}
+
+#contact {
+    width: 400px;
+    border: none;
+    border-radius: 10px;
+    margin: 20px auto 0 auto;
+    background: #f2f2f2;
+}
+
+#navbar {
+   z-index: 10000;
+}​
+li: hover{
+	color: #51B948;
+}
+a:link {
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:visited {
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 18em;
+}
+nav a {
+    display: block;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;	
+}
+li:hover{
+	background-color:  #5EBA4D;
+}
+
+section {
+	width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #fff;
+    padding-bottom: 800px;
+    box-shadow: 0px 3px 10px #555;
+	margin-top: 25px;
+}
+nav, nav ul, nav ul li{
+	margin-right: auto;
+	margin-left: auto;
+}
+#image{
+	width: 100%;
+    max-width: 388px;
+    margin-bottom: 25px;
+    left: 0px
+	
+}
+footer {
+	text-align: center;
+		font-size: small;
+	font-style: italic; 
+	color: #185693;
+}
+.col-half {
+    width: 40%;
+    float: left;
+    padding: 50px;
+}
+.col-half2 {
+    width: 45%;
+    float: right;
+    padding: 25px;
+}
+.center {
+  text-align: center;
+}
+
+.form-wrap{width: 320px; background: rgba(0,0,0,0.4); padding: 40px 20px; box-sizing: border-box;
+		float:right; margin:10px; margin-right:80px;}
+		
+div {
+	display: block;
+}
+button{
+	background-color: #0b0c5c;
+	border: none;
+	color: white;
+	font-size: 40px;
+	text-align: center;
+	border-radius:25px;
+}
+.logout{
+	color: #5EBA4D;
+	background-color: blue;
+	border-radius: 10px;
+}
+.center2 {
+  text-align: center;
+  background-color: gray;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content {
+  padding-top: 60px;
+}
+.content {
+  padding: 16px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  width: 100%;
+  max-width:20000px;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.prev{
+	background-color: rgba(0,0,0,0.4);
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}

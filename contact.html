@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+<head>
+
+<meta name="viewport" content=" width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+
+<title>Contact Us</title>
+
+
+<link href="css/hfh_css.css" rel="stylesheet" type="text/css">
+
+<style type="text/css">
+	
+body {
+	background-color: #FFFFFF;
+}
+body,td,th {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+</style>
+</head>
+
+
+<header>
+<div id="navbar" class="topnav">
+  <a href="index.html">Home</a>
+  <a href="PayBill.html">Pay Bill</a>
+  <a href="workwithus.html">Work With Us</a>
+  <a href="members.php">Member Login</a>
+  <a style="float: right" href="contact.html">Contact Us</a>>
+</div>
+<br>
+	  <img src="logo.jpg" alt="Kennerly Construction" class="centerlogo">
+	 
+			
+</header>
+<section>
+<div class="col-half">
+
+<p><span style="font-size: 24px; color: #5EBA4D;">Contact Kennerly Construction</span></p>
+<p>&nbsp;</p>
+
+<h2> Address&nbsp;</h2>
+<p style="font-size: 15px">1319 Remmel Dam Rd&nbsp;</p>
+<p style="font-size: 15px">Malvern, AR 72104&nbsp;</p>
+<h2>Phone</h2>
+
+<p style="font-size: 15px">(501) 844-4253&nbsp;</p>
+
+	<h2>Email</h2>
+<p style="font-size: 15px;"><a style="color: #005F98;" href="mailto:contact@hfhpca.org">contact@kennerlyconstruction.com</a>
+	</p>
+<p><span style="font-size: 24px; color: #5EBA4D;">Have a Great Day!&nbsp; &nbsp; &nbsp;&nbsp;</span></p>
+</div>
+<div>
+  <form action="mailto:wbarrientos@atu.edu" method="post" name="form1" id="contact">
+    <fieldset float="right">
+      <legend style="font-size: 25px">Email Us</legend>
+      <p style="font-size: 16px">
+        <label for="Name">First Name:</label>
+        <input name="Name" type="text" required="required" id="Name">
+      </p>
+      
+      <p style="font-size: 0.7px">
+        <label for="lastName"><span style="font-size: 16px">Last Name</span>:</label>
+        <input name="lastName" type="text" required="required" id="lastName">
+      </p>
+      <p>
+        <label for="email"><span style="font-size: 16px">Email</span>:</label>
+        <input name="email" type="email" required="required" id="email">
+        <label for="textfield2">:<br>
+          <br>
+          <span style="font-size: 16px">I would like to receive more information about: </span><br>
+        </label>
+        <label>
+          <input type="checkbox" name="CheckboxGroup1" value="wdw" id="CheckboxGroup1_0">
+        <span style="font-size: 16px">Requesting a Quote</span></label>
+        <span style="font-size: 0.7px"><br>
+        
+        <label>
+          <input type="checkbox" name="CheckboxGroup1" value="both" id="CheckboxGroup1_2">
+        <span style="font-size: 16px">General Question</span></label>
+        </span>
+        </p>
+      <p>
+        <label for="textarea"><span style="font-size: 16px">Your Message</span>:</label>
+        <textarea name="textarea" id="textarea"></textarea>
+      </p>
+      <p><br>
+        <input type="submit" name="submit" id="submit" value="Contact Us">
+        <label for="textfield2">      
+          <input type="reset" name="reset" id="reset" value="Start Over">
+          <br>
+        </label>
+      </p>
+      </fieldset>
+</form>
+	</div>
+	<div class="clear">
+  
+  </div>
+	</section>
+<p>
+  <footer><strong>Kennerly Construction. All Rights Reserved&nbsp;</strong></footer>
+</p>
+</body>
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+
+</html>

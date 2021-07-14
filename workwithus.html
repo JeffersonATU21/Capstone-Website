@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Work With US</title>
+<link href="css/hfh_css.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	
+body {
+	background-color: #FFFFFF;
+}
+body,td,th {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+	h1{text-align: center; color: #FFFFFF; font-weight: normal;}
+	input{width: 100%; background: none; border: 2px solid #fff; border-radius: 3px; 
+			padding: 6px 20px; box-sizing: border-box; margin-bottom: 20px;
+			font-size: 16px;}
+	input[type="button"]{background: #bac675; border: 0; cursor: pointer; color:#3e3d3d;}
+	input[type="button"]:hover{background: #a4b15c; transition: .5s;}
+	*{margin: 0; padding: 0;}
+</style>
+</head>
+
+<body>
+<header>
+<div id="navbar" class="topnav">
+  <a href="index.html">Home</a>
+  <a href="PayBill.html">Pay Bill</a>
+  <a href="workwithus.html">Work With Us</a>
+  <a href="members.php">Member Login</a>
+  <a style="float: right" href="contact.html">Contact Us</a>>
+</div>
+<br>
+	  <img src="logo.jpg" alt="Kennerly Construction" class="centerlogo">
+	 
+			
+</header>
+
+	<section>
+	<div class="col-half">
+	<p><span style="font-size: 24px; color: #5EBA4D;">Join Our Team</span></p>
+	<p style="font-size: 18px; font-style: normal; font-weight: 400; font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', serif;" >
+	We are always seeking qualified hard workers to join our teams. Please fill out the application form to the right or contact us either by email or by phone to get more information about the company and the great things we do.
+	</p>
+	</div>
+	<div class="form-wrap">
+		<form>
+		<h1> Employment Application</h1>
+		<br>
+		<input type="text" placeholder="First Name">
+		<input type="text" placeholder="Last name">
+		<input type="email" placeholder="Email">
+		<input type="text" placeholder="Phone">
+		<input type="text" placeholder="Position you are applying for">
+		<input type="text" placeholder="Previous experience">
+		<input type="text" placeholder="Salary Requirements">
+		<input type="text" placeholder="Date you can start">
+		<input type="text" placeholder="References">
+		<input type="button" value="Apply!">
+		</form>
+	</div>
+	</section>
+
+	<p>
+  <footer><strong>Kennerly Construction. All Rights Reserved&nbsp;</strong></footer>
+</p>
+</body>
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+</html>
