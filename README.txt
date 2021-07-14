@@ -1,5 +1,6 @@
-Hey this is the server, the config.php file might have to be adjusted but everything else should be good.
-Here is the PHP SQL server code to be pasted into the websites server:
+This project was done within 2 months with the help of some group mates.
+
+Here is the SQL code to be pasted into the websites server:
 
 CREATE TABLE users (
     id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
