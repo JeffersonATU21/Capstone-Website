@@ -1,4 +1,5 @@
-This project was done within 2 months with the help of some group mates.
+This project was done within 2 1/2 months with the help of some group mates.
+There is a system documentation and a user manual inside project with screenshots and diagrams.
 
 Here is the SQL code to be pasted into the websites server:
 
